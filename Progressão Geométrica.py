@@ -1,8 +1,8 @@
 inicio= int(input("Início -> "))
-razao= float(input("Razão -> "))
+razao= int(input("Razão -> "))
 visualizar= int(input("Quantos elementos quer visualizar -> "))
-
+print("P.G -> ", end="")
 for i in range (visualizar):
     res=inicio
-    print(res)
+    print(res, end=" ")
     inicio *= razao
