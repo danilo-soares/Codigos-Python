@@ -1,7 +1,6 @@
-num=int(input("Fatorial do -> "))
-res=1
+def fatorial (numero,res=1):
 
-for i in range(1,num+1):
-    res *= i
-    
-print("{}! -> {}" .format(num,res))
+    for i in range (1,numero+1):
+        res *= i
+    return res
+
